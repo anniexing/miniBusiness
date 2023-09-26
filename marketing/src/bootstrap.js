@@ -6,7 +6,7 @@ import App from './App';
 const mount = (el) => {
   if(el) {
     const root = createRoot(el);
-    root.render(<App/>);
+    root.render(<React.StrictMode><App/></React.StrictMode>);
   }
 
 };

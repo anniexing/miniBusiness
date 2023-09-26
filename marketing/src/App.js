@@ -14,7 +14,6 @@ const App = () => {
             <Route exact path="/pricing" element={<Pricing />} />
             <Route path="/" element={<Landing />} />
           </Routes>
-
         </BrowserRouter>
       </StylesProvider>
     </div>

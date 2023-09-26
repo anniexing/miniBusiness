@@ -1,9 +1,8 @@
 {
-  "name": "auth",
+  "name": "marketing",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack serve --config config/webpack.dev.js ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --config config/webpack.dev.js "
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
@@ -21,6 +20,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
+    "prettier": "3.0.3",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
