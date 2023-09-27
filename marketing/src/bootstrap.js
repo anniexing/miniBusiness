@@ -4,11 +4,8 @@ import App from './App';
 
 // Mount function to start up the app
 const mount = (el) => {
-  if(el) {
-    const root = createRoot(el);
-    root.render(<React.StrictMode><App/></React.StrictMode>);
-  }
-
+  const root = createRoot(el);
+  root.render(<React.StrictMode><App/></React.StrictMode>);
 };
 
 // If we are in development and in isolation,
