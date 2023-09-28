@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - run: npm install --force
+      - run: npm install
       - run: npm run build
 
       - uses: chrislennon/action-aws-cli@v1.1
